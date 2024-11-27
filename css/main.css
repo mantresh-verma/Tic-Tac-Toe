@@ -1,0 +1,67 @@
+body {
+  /* background: url("../img/bg.jpg") no-repeat center; */
+  /* background-size: cover;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden; */
+
+  background: rgb(212, 138, 245);
+  background: linear-gradient(
+    90deg,
+    rgba(212, 138, 245, 1) 7%,
+    rgba(191, 69, 246, 1) 42%,
+    rgba(126, 119, 232, 1) 98%
+  );
+}
+
+nav {
+  opacity: 0.4;
+}
+
+.gameContainer {
+  position: absolute;
+  top: 20%;
+}
+
+/* .gameContainer > .row > .col-4 {
+  /* border: 1px solid black; 
+} */
+
+
+
+.col-4 {
+  margin: 5px;
+  padding-top: 10px;
+  border-radius: 8px;
+  background-color: rgb(203, 150, 228);
+  /* color: black; */
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  font-size: 50px;
+  /* color: rgb(99, 6, 143); */
+  
+}
+
+.col-4:hover {
+  background-color: rgb(229, 192, 247);
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(203, 150, 228, 0.514);
+  text-align: center;
+  padding-top: 10px;
+
+}
+
+@media (max-width: 767.98px) {
+    .col-4 {
+        width: 70px;
+        height: 70px;
+      }
+      
+}
